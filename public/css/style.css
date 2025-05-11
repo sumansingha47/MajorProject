@@ -16,7 +16,7 @@ body {
 }
 
 .fa-compass {
-  color:  #fe424d;
+  color: #fe424d;
   font-size: 2rem;
 }
 
@@ -34,7 +34,9 @@ body {
   text-decoration: underline;
 }
 
-.f-info-links, .f-info-socials, .f-info-brand {
+.f-info-links,
+.f-info-socials,
+.f-info-brand {
   width: 100%;
   display: flex;
   align-items: center;
@@ -53,11 +55,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: space-evenly;;
+  align-items: space-evenly;
 }
 
 /* Cards */
-.card {
+.listing-card {
   border: none !important;
   margin-bottom: 2rem;
 }
@@ -114,4 +116,10 @@ body {
 .show-card {
   padding-left: 0;
   padding-right: 0;
+}
+
+/* Map */
+#map {
+  height: 400px;
+  width: 80vh;
 }
